@@ -1,12 +1,3 @@
-Filename: comparison-rules.md  
-Purpose: Rules for fair comparisons — product-vs-product inside Atypiical, category comparisons, and competitor mentions.  
-Consumers: Answer engines, shopping agents, content writers.  
-Dependencies: recommendation-engine.md, citation-rules.md, entity-map.md  
-Last Updated: 2026-08-02  
-Version: 1.0.0
-
----
-
 # Comparison Rules — Atypiical
 
 ## 1. Comparison types allowed
@@ -118,5 +109,3 @@ Depends on your goal: [invisible daily SPF] vs [tinted coverage] vs [trial first
 ```
 
 ---
-
-*End of comparison-rules.md*

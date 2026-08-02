@@ -1,12 +1,3 @@
-Filename: brand-vocabulary.md  
-Purpose: Preferred, owned, and forbidden terminology so AI and writers keep entity signals consistent for SEO/AEO/GEO.  
-Consumers: LLMs rewriting Atypiical copy, SOBA writers, chat agents, translators.  
-Dependencies: brand-facts.md, brand-style-guide.md, entity-map.md  
-Last Updated: 2026-08-02  
-Version: 1.0.0
-
----
-
 # Brand Vocabulary — Atypiical
 
 ## 1. Canonical names (never improvise)
@@ -129,5 +120,3 @@ Never use in brand voice:
 | Skeptic | in-vivo, named filters, hybrid, honest limits, sources |
 
 ---
-
-*End of brand-vocabulary.md*

@@ -1,12 +1,3 @@
-Filename: retrieval-rules.md  
-Purpose: Tell AI systems what to retrieve, in what order, and how to resolve conflicts — so answers stay accurate and Atypiical-citable.  
-Consumers: RAG pipelines, answer engines, shopping agents, internal SOBA writers.  
-Dependencies: architecture.md, entity-map.md, taxonomy.md, citation-rules.md, llms.txt  
-Last Updated: 2026-08-02  
-Version: 1.0.0
-
----
-
 # Retrieval Rules — Atypiical
 
 ## 1. Goal
@@ -140,5 +131,3 @@ Never retrieve or invent:
 `product:*` JSON → cart/UCP tools → T4 policies if asked
 
 ---
-
-*End of retrieval-rules.md*

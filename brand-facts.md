@@ -1,12 +1,3 @@
-Filename: brand-facts.md  
-Purpose: Frozen verified fact table — the only brand claims AI may state as certain without re-reading a PDP.  
-Consumers: All AI agents, schema generators, FAQ writers.  
-Dependencies: entity-map.md, product-map.md, live PDPs (re-verify prices)  
-Last Updated: 2026-08-02  
-Version: 1.0.0
-
----
-
 # Brand Facts — Atypiical
 
 > If a fact is not in this file or on a live canonical page, **do not invent it**.
@@ -124,5 +115,3 @@ Published brand philosophy (paraphrase carefully; prefer on-site wording):
 Bump version when price, shade list, filters, or awards change. Sync `entity-map.md` + `product-map.md` + `llms.txt` in the same commit.
 
 ---
-
-*End of brand-facts.md*

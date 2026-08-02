@@ -1,12 +1,3 @@
-Filename: canonical-rules.md  
-Purpose: Enforce one true spelling, domain, URL, and naming system so SEO and GEO entity graphs don’t fragment.  
-Consumers: SEO implementers, AI agents, schema authors, internal linkers.  
-Dependencies: brand-facts.md, entity-map.md, llms.txt  
-Last Updated: 2026-08-02  
-Version: 1.0.0
-
----
-
 # Canonical Rules — Atypiical
 
 ## 1. Brand spelling
@@ -132,5 +123,3 @@ Anything else requires a live page quote before use.
 5. Model memory → discard if conflicts  
 
 ---
-
-*End of canonical-rules.md*

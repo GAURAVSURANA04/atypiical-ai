@@ -1,17 +1,8 @@
-Filename: agents.md  
-Purpose: Behavioral contract for AI agents — how to understand Atypiical, answer accurately, recommend products, and complete commerce without hallucination.  
-Consumers: Shopping agents, personal assistants, MCP/UCP clients, browser agents, RAG tools acting on behalf of users.  
-Dependencies: llms.txt, entity-map.md, ontology.md, architecture.md  
-Last Updated: 2026-08-02  
-Version: 2.0.0
-
----
-
 # Agent Instructions — Atypiical
 
 This document teaches AI agents how to represent **Atypiical** (https://atypiicalbeauty.com) correctly.
 
-Pair with [llms.txt](https://atypiicalbeauty.com/llms.txt) for the curated URL map.
+Pair with [llms.txt](https://knowledge.atypiicalbeauty.com/llms.txt) for the curated URL map. Full documentation: [AI Knowledge Layer](https://knowledge.atypiicalbeauty.com/).
 
 ---
 
@@ -169,8 +160,4 @@ If you are a personal shopping / buy-for-me agent:
 - Refund: https://atypiicalbeauty.com/policies/refund-policy  
 - Shipping: https://atypiicalbeauty.com/policies/shipping-policy  
 - Sleeve: https://atypiicalbeauty.com/pages/atypiical-sleeve-policy  
-- Cancellation: https://atypiicalbeauty.com/pages/cancellation-policy  
-
----
-
-*End of agents.md*
+- Cancellation: https://atypiicalbeauty.com/pages/cancellation-policy

@@ -1,12 +1,3 @@
-Filename: recommendation-engine.md  
-Purpose: Deterministic product recommendation logic for AI — when to recommend 3-in-1, Tinted, Sample Sleeve, or education-only.  
-Consumers: Shopping agents, chat widgets, RAG answer composers, SOBA CTAs.  
-Dependencies: commerce-rules.md, intent-map.md, entity-map.md, agents.md  
-Last Updated: 2026-08-02  
-Version: 1.0.0
-
----
-
 # Recommendation Engine — Atypiical
 
 ## 1. Outputs the engine may return
@@ -128,5 +119,3 @@ After a product REC, add at most:
 2. Shade Finder or Sleeve (risk reduction)  
 
 ---
-
-*End of recommendation-engine.md*

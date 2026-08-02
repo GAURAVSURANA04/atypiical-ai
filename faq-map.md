@@ -1,12 +1,3 @@
-Filename: faq-map.md  
-Purpose: Canonical question→answer registry for AEO/GEO — self-contained answers with source URLs agents must reuse instead of improvising.  
-Consumers: FAQ schema generators, chatbots, answer engines, PDP FAQ blocks.  
-Dependencies: intent-map.md, citation-rules.md, entity-map.md, product-map.md  
-Last Updated: 2026-08-02  
-Version: 1.0.0
-
----
-
 # FAQ Map — Atypiical
 
 **Rules for using this file:**
@@ -138,5 +129,3 @@ Discuss with your obstetrician/dermatologist. Do not invent pregnancy certificat
 When publishing FAQs on Shopify, reuse these Q/A pairs in `FAQPage` JSON-LD. Keep answers aligned with this map after any price/claim change.
 
 ---
-
-*End of faq-map.md*

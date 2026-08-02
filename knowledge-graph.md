@@ -1,12 +1,3 @@
-Filename: knowledge-graph.md  
-Purpose: Explicit entity relationship graph for RAG and GEO — edges machines can traverse from problem → education → product → purchase.  
-Consumers: Graph RAG, internal link planners, recommendation engines, schema `sameAs` designers.  
-Dependencies: entity-map.md, ontology.md, intent-map.md  
-Last Updated: 2026-08-02  
-Version: 1.0.0
-
----
-
 # Knowledge Graph — Atypiical
 
 Format: `subject —predicate→ object`  
@@ -184,5 +175,3 @@ org:atypiical —canonicalUrl→ atypiical.in  ✗ LEGACY ONLY
 4. Do not jump to product without education on pure definitional intents unless user asks to buy.  
 
 ---
-
-*End of knowledge-graph.md*

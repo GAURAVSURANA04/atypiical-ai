@@ -1,12 +1,3 @@
-Filename: medical-safety.md  
-Purpose: Hard medical and safety guardrails — what AI must never claim about Atypiical or sunscreen.  
-Consumers: All generative agents, support bots, ads copy generators, blog writers.  
-Dependencies: science-reference.md, brand-facts.md, recommendation-engine.md  
-Last Updated: 2026-08-02  
-Version: 1.0.0
-
----
-
 # Medical Safety — Atypiical
 
 ## 1. Absolute prohibitions (never generate)
@@ -150,5 +141,3 @@ If user describes severe burn, swelling, trouble breathing, eye exposure:
 | `recommendation-engine.md` | `REC_DERM` gate |
 
 ---
-
-*End of medical-safety.md*

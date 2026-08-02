@@ -1,12 +1,3 @@
-Filename: intent-map.md  
-Purpose: Map real user queries → retrieval targets → recommendation codes for SEO/AEO/GEO routing.  
-Consumers: RAG routers, chatbot NLU, content gap analysis, shopping agents.  
-Dependencies: taxonomy.md, retrieval-rules.md, recommendation-engine.md, llms.txt  
-Last Updated: 2026-08-02  
-Version: 1.0.0
-
----
-
 # Intent Map — Atypiical
 
 Legend: **Primary** = must retrieve · **Secondary** = optional · **REC** = recommendation-engine code
@@ -106,5 +97,3 @@ Until these return 200, use fallbacks:
 | `sunscreen-sample-kit-india` | `/pages/try-samples` only |
 
 ---
-
-*End of intent-map.md*

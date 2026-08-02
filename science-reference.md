@@ -1,12 +1,3 @@
-Filename: science-reference.md  
-Purpose: Approved science statements AI may use, with mandatory sources — separates category science from Atypiical product claims.  
-Consumers: Blog writers, answer engines, GEO citation builders.  
-Dependencies: Atypical-Sources.md, medical-safety.md, citation-rules.md  
-Last Updated: 2026-08-02  
-Version: 1.0.0
-
----
-
 # Science Reference — Atypiical
 
 ## 1. How to use this file
@@ -135,5 +126,3 @@ Before a new statistic enters blogs or AI answers:
 4. Never paste model-memory percentages  
 
 ---
-
-*End of science-reference.md*

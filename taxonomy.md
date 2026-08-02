@@ -1,12 +1,3 @@
-Filename: taxonomy.md  
-Purpose: Content and commerce classification system — pillars, intents, page types, and how blogs/products nest for SEO topical authority and AI retrieval.  
-Consumers: Content strategists, SEO/AEO engineers, RAG chunk routers, internal linking systems.  
-Dependencies: architecture.md, ontology.md, atypiical-blog-plan.md, live blog inventory  
-Last Updated: 2026-08-02  
-Version: 1.0.0
-
----
-
 # Atypiical Taxonomy
 
 ## 1. Top-level facets
@@ -185,5 +176,3 @@ entity_focus: [<entity ids from entity-map>]
 | Future: undertones blog (draft exists offline) | Support Shade Finder |
 
 ---
-
-*End of taxonomy.md*

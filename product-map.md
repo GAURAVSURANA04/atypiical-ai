@@ -1,12 +1,3 @@
-Filename: product-map.md  
-Purpose: SKU-level commerce map — heroes, sachets, prices, handles, collections — for agents and feed builders.  
-Consumers: UCP/MCP agents, Shopping assistants, feed/schema tools, support bots.  
-Dependencies: entity-map.md, commerce-rules.md, live Shopify products.json (Aug 2026)  
-Last Updated: 2026-08-02  
-Version: 1.0.0
-
----
-
 # Product Map — Atypiical
 
 **Always re-fetch live JSON before checkout.** Reference values below from audit 2026-08-02.
@@ -124,5 +115,3 @@ POST /api/ucp/mcp
 If not verified → do not state.
 
 ---
-
-*End of product-map.md*

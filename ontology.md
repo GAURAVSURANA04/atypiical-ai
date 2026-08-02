@@ -1,12 +1,3 @@
-Filename: ontology.md  
-Purpose: Formal concept system for Atypiical — classes, properties, allowed relationships, and constraints so AI builds a correct knowledge graph.  
-Consumers: Knowledge-graph builders, RAG indexers, entity extractors, schema engineers, LLMs doing structured reasoning.  
-Dependencies: architecture.md, entity-map.md, brand-facts (Phase 3)  
-Last Updated: 2026-08-02  
-Version: 1.0.0
-
----
-
 # Atypiical Ontology
 
 ## 1. Namespace
@@ -181,5 +172,3 @@ Ontology version bumps when:
 Minor bumps for new Article instances only require taxonomy/entity-map updates, not ontology class changes.
 
 ---
-
-*End of ontology.md*
