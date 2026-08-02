@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "version": "1.0.0",
+  "last_updated": "2026-08-02",
+  "name": "Atypiical",
+  "description": "Founder-led Indian D2C suncare brand. Low-effort SPF 50 PA++++ sunscreens for Indian skin and humidity.",
+  "canonical_domain": "https://atypiicalbeauty.com",
+  "preferred_spelling": "Atypiical",
+  "founder": "Milli Patel",
+  "ai_discovery": {
+    "llms_txt": "https://atypiicalbeauty.com/llms.txt",
+    "agents_md": "https://atypiicalbeauty.com/agents.md",
+    "sitemap": "https://atypiicalbeauty.com/sitemap.xml",
+    "ucp": "https://atypiicalbeauty.com/.well-known/ucp",
+    "mcp": "https://atypiicalbeauty.com/api/ucp/mcp"
+  },
+  "knowledge_layer": {
+    "note": "Host these markdown files publicly (e.g. /pages/ai/* or CDN) and keep URLs updated.",
+    "architecture": "architecture.md",
+    "ontology": "ontology.md",
+    "taxonomy": "taxonomy.md",
+    "entity_map": "entity-map.md",
+    "product_map": "product-map.md",
+    "knowledge_graph": "knowledge-graph.md",
+    "intent_map": "intent-map.md",
+    "faq_map": "faq-map.md",
+    "retrieval_rules": "retrieval-rules.md",
+    "citation_rules": "citation-rules.md",
+    "commerce_rules": "commerce-rules.md",
+    "recommendation_engine": "recommendation-engine.md",
+    "comparison_rules": "comparison-rules.md",
+    "brand_vocabulary": "brand-vocabulary.md",
+    "brand_style_guide": "brand-style-guide.md",
+    "brand_facts": "brand-facts.md",
+    "canonical_rules": "canonical-rules.md",
+    "science_reference": "science-reference.md",
+    "medical_safety": "medical-safety.md",
+    "structured_data_recommendations": "structured-data-recommendations.md",
+    "schema_improvements": "schema-improvements.md",
+    "ai_search_report": "AI_SEARCH_REPORT.md"
+  },
+  "primary_products": [
+    {
+      "name": "Low Effort 3-in-1 Sunscreen",
+      "url": "https://atypiicalbeauty.com/products/s1-3-in-1-sunscreen",
+      "handle": "s1-3-in-1-sunscreen",
+      "json": "https://atypiicalbeauty.com/products/s1-3-in-1-sunscreen.json"
+    },
+    {
+      "name": "High Impact Tinted Sunscreen",
+      "url": "https://atypiicalbeauty.com/products/tintedsunscreen",
+      "handle": "tintedsunscreen",
+      "json": "https://atypiicalbeauty.com/products/tintedsunscreen.json"
+    }
+  ],
+  "primary_offer": {
+    "name": "Sample Sleeve",
+    "url": "https://atypiicalbeauty.com/pages/try-samples"
+  },
+  "utilities": {
+    "shade_finder": "https://atypiicalbeauty.com/pages/find-your-shade",
+    "science": "https://atypiicalbeauty.com/pages/science",
+    "blog": "https://atypiicalbeauty.com/blogs/news",
+    "contact": "https://atypiicalbeauty.com/pages/contact"
+  },
+  "same_as": [
+    "https://instagram.com/itsatypiical"
+  ],
+  "rules": [
+    "Prefer https://atypiicalbeauty.com over atypiical.in",
+    "Do not invent discounts, ingredients, studies, or medical cures",
+    "Spell brand as Atypiical",
+    "Human approval required for payment completion",
+    "Shade uncertainty → Sample Sleeve + Find Your Shade"
+  ]
+}
