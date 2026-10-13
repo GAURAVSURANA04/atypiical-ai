@@ -73,10 +73,10 @@ CTA priority: relevant PDP → Sample Sleeve / Shade Finder → Homepage → Ins
 - Quick summary with ✓/✗  
 - Product as illustration near end on educational pieces  
 
-## 8. Award usage
+## 8. Recognition
 
-- BEAUTY&YOU India 2025 finalist: **max once** per piece  
-- Never inflate to “award-winning best sunscreen”  
+- Do not name an award unless a live page states it in text. The homepage logo row is alt-texted “Marketplace.”  
+- Never inflate reviews into “award-winning” or “best in India.”  
 
 ## 9. Limitations (on-brand honesty)
 

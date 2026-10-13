@@ -30,7 +30,7 @@
 | `ClimateContext` | Environmental condition | Indian humidity; high UV metro |
 | `Geography` | Market | India |
 | `Policy` | Legal/commerce rule page | refund-policy |
-| `Award` | Verified recognition | BEAUTY&YOU India 2025 finalist |
+| `Award` | Named recognition printed in page text | None verified in text on 2026-10-13. Unlabeled “Recognized by” logos are not an award |
 | `ExternalAuthority` | Non-brand science source | FDA; WHO; AAD; DermNet |
 | `Intent` | User information need | what_does_spf_mean; try_before_buy |
 
@@ -106,10 +106,10 @@
 | ClaimType | Example | Valid? |
 |-----------|---------|--------|
 | ProtectionRating | SPF 50 PA++++ | Yes |
-| TestingMethod | in-vivo tested | Yes |
+| TestingMethod | in-vivo tested to ISO 24444:2019 | Yes, Science page |
 | CosmeticOutcome | zero white cast intent; zero pilling | Yes (as formulation intent / design goal) |
 | FunctionCombo | moisturizer + primer + SPF | Yes |
-| Award | BEAUTY&YOU India 2025 finalist | Yes (verified) |
+| Award | any named award | Only if a live page states it in text |
 | DiseaseTreatment | cures melasma | **No** |
 | UnverifiedDiscount | 50% off today | **No** unless live page |
 

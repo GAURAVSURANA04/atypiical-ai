@@ -14,10 +14,14 @@
 | **geography** | India (primary) |
 | **positioning** | Low-effort, high-efficacy SPF for Indian skin & humidity |
 | **mission** | Make daily sunscreen effortless for Indian skin |
-| **award** | BEAUTY&YOU India 2025 finalist (Estée Lauder New Incubation Ventures / Nykaa / Startup India) |
+| **registered_under** | Sam Lifecare (footer prints “Atypical is registered under Sam Lifecare”) |
+| **address** | 5th Floor, Flat No. 505, Union Trade Center, Udhna Darwaja Flyover, Near Apple Hospital, Surat, Gujarat 395002 |
+| **phone** | +91 63518 98187 |
+| **email** | info@atypiical.in |
 | **sameAs** | https://instagram.com/itsatypiical |
 | **contact** | https://atypiicalbeauty.com/pages/contact |
-| **data_hygiene** | Shopify vendor field inconsistently shows `atypical` / `atypiical` on SKUs — brand name remains **Atypiical** |
+| **award** | Do not name one. Homepage “Recognized by” logos have alt text “Marketplace” only (audit 2026-10-13) |
+| **data_hygiene** | Shopify vendor field shows `atypiical` on the 3-in-1 and `atypical` on tinted + sachets — brand name remains **Atypiical** |
 
 ---
 
@@ -29,7 +33,7 @@
 | **name** | Milli Patel |
 | **role** | Founder |
 | **organization** | `org:atypiical` |
-| **quote_verified** | “Good skin doesn't need more products. It needs the right one, every day…” (published on brand site) |
+| **quote_verified** | Homepage founder note: “Good skin doesn't need more products. It needs the right one, every day…” |
 | **schema** | `Person` + `founder` of Organization |
 
 ---
@@ -45,18 +49,20 @@
 | **handle** | `s1-3-in-1-sunscreen` |
 | **url** | https://atypiicalbeauty.com/products/s1-3-in-1-sunscreen |
 | **json** | https://atypiicalbeauty.com/products/s1-3-in-1-sunscreen.json |
+| **sku** | ATY10001 |
+| **size** | 40 ML |
 | **price_INR** | 1049.00 |
 | **spf** | 50 |
 | **pa** | PA++++ |
 | **spectrum** | Broad-spectrum UVA + UVB |
-| **testing** | In-vivo tested |
-| **filter_system** | Hybrid (chemical + mineral) |
+| **testing** | In-vivo, ISO 24444:2019; patch test 26 sensitive-skin subjects, reported non-irritant |
+| **filter_system** | Hybrid (mineral + older chemical + next-generation) |
 | **functions** | Moisturizer + Primer + SPF |
 | **technologies** | `tech:blueshield`, `tech:lavender-base` |
-| **claims** | Zero white cast intent; zero pilling; fragrance-free; non-comedogenic; dermatologically tested |
+| **claims** | Zero white cast intent; zero pilling; fragrance-free; non-comedogenic; dermatologically tested; sweat-resistant badge; vegan and cruelty-free (FAQ) |
 | **formulated_in** | Australia |
 | **made_in** | India |
-| **skin_types** | Oily, combination, normal (non-comedogenic) |
+| **skin_types** | PDP badges include oily, sensitive, acne-prone. FAQ says all skin types |
 | **solves** | `problem:too-many-steps`, `problem:white-cast`, `problem:pilling`, `problem:skip-spf` |
 | **related_offer** | Sample Sleeve includes 3-in-1 sachet |
 
@@ -70,12 +76,15 @@
 - Zinc Oxide  
 - Titanium Dioxide  
 
-#### Verified skincare actives
+#### Verified skincare actives (3-in-1 INCI)
 
 - Niacinamide  
 - Tocopheryl Acetate (Vitamin E)  
-- Licorice Root Extract  
-- Allantoin  
+- Capsicum Annuum Fruit Extract  
+- Betaine  
+- Glycerin  
+
+Licorice Root and Allantoin are **not** on the 3-in-1 INCI. They belong to the tinted formula.
 
 ### 3.2 High Impact Tinted Sunscreen
 
@@ -86,14 +95,17 @@
 | **handle** | `tintedsunscreen` |
 | **url** | https://atypiicalbeauty.com/products/tintedsunscreen |
 | **json** | https://atypiicalbeauty.com/products/tintedsunscreen.json |
+| **skus** | ATY10002–ATY10009 |
 | **price_INR** | 1199.00 |
+| **size** | Not on the variant title |
 | **spf** | 50 |
 | **pa** | PA++++ |
-| **testing** | In-vivo tested |
-| **filter_system** | Hybrid |
-| **coverage** | Buildable, skin-like; can replace foundation for many users |
+| **testing** | In-vivo, ISO 24444:2019; same patch-test statement as the 3-in-1 |
+| **filter_system** | Mineral-forward hybrid: Zinc Oxide, Titanium Dioxide (FAQ), Tinosorb M |
+| **pigments** | Iron oxides CI 77491 / CI 77492 / CI 77499; CI 77891 |
+| **coverage** | Light to medium, buildable. Everyday, not full-coverage foundation (FAQ) |
 | **actives_called_on_pdp** | Licorice Root; Cactus Water; Allantoin |
-| **claims** | Fragrance-free; non-comedogenic; dermatologically tested; humidity-comfortable |
+| **claims** | Fragrance-free; non-comedogenic; dermatologically tested; sweat-resistant badge; vegan and cruelty-free (FAQ); does not oxidise (FAQ) |
 | **formulated_in** | Australia |
 | **made_in** | India |
 | **shade_system** | `system:shade-a-series` |
@@ -111,10 +123,11 @@
 | **entity_id** | `offer:sample-sleeve` |
 | **name** | Sample Sleeve / Try Samples |
 | **url** | https://atypiicalbeauty.com/pages/try-samples |
-| **price_INR** | 169.00 |
+| **price_INR_try_samples** | 169.00 |
+| **price_INR_policy_page** | 140.00 (do not treat as the live charge while Try Samples shows 169) |
 | **includes** | 1× 3-in-1 sachet + 3 tinted shade sachets (user-selected) |
 | **protection** | SPF 50 PA++++ on included sachets |
-| **redemption** | Fully redeemable on first full-size order (per page) |
+| **redemption** | Try Samples: full amount off first full-size at checkout, no code. Policy page: 3-month credit, same account, once |
 | **policy** | https://atypiicalbeauty.com/pages/atypiical-sleeve-policy |
 | **when_to_recommend** | Shade uncertainty; first purchase; texture anxiety |
 | **related_collection** | https://atypiicalbeauty.com/collections/samples |
@@ -135,10 +148,10 @@
 
 | entity_id | code | Live title | Sachet handle |
 |-----------|------|------------|---------------|
-| `shade:A10W` | A10W | Warm Deep Golden | `s2-ivory` |
-| `shade:A15W` | A15W | Warm Deep Olive | `s3-light-beige` |
-| `shade:A20W` | A20W | Medium Warm Peach-Golden | `s4-natural-beige` |
-| `shade:A25W` | A25W | Medium Yellow | `s5-warm-sand` |
+| `shade:A10W` | A10W | Deep Warm Golden | `s2-ivory` |
+| `shade:A15W` | A15W | Deep Warm Olive | `s3-light-beige` |
+| `shade:A20W` | A20W | Medium Warm Peach | `s4-natural-beige` |
+| `shade:A25W` | A25W | Medium Warm Yellow | `s5-warm-sand` |
 | `shade:A30N` | A30N | Light Medium Neutral | `s6-golden-tan` |
 | `shade:A35W` | A35W | Light Medium Yellow | `s7-caramel` |
 | `shade:A40N` | A40N | Light Neutral | `s8-mocha` |
@@ -153,9 +166,10 @@ Also: `sku:3-in-1-sachet` handle `s1-3-in-1-sunscreen-sample` — “1 x 3 in 1 
 | entity_id | Name | Attached to | Allowed statement |
 |-----------|------|-------------|-------------------|
 | `tech:hybrid-filters` | Hybrid UV filter system | Both heroes | Chemical + mineral filters in one formula |
-| `tech:blueshield` | BlueShield® | 3-in-1 | Adds protection against blue light from screens |
-| `tech:lavender-base` | Lavender base | 3-in-1 | Helps cancel yellow undertones / support no-white-cast finish |
-| `tech:in-vivo` | In-vivo SPF testing | Both heroes | SPF/PA claims supported by in-vivo testing |
+| `tech:blueshield` | BlueShield® | 3-in-1 | PDP explanatory copy: helps protect against blue light from phones, laptops, and screens. A feature card also prints BlueShield™ |
+| `tech:lavender-base` | Lavender base | 3-in-1 | Cancels yellow undertones / supports the no-white-cast finish |
+| `tech:in-vivo` | In-vivo SPF testing | Both heroes | Science page: ISO 24444:2019 |
+| `tech:iron-oxides` | Iron oxides | Tinted | CI 77491, CI 77492, CI 77499. Visible-light and cast-offset pigments, per tinted education posts |
 
 ---
 
@@ -221,26 +235,11 @@ Also: `sku:3-in-1-sachet` handle `s1-3-in-1-sunscreen-sample` — “1 x 3 in 1 
 
 ## 10. Article entities (education graph)
 
-| entity_id | URL slug | Pillar | Affinity |
-|-----------|----------|--------|----------|
-| `article:how-sunscreen-works` | what-is-sunscreen-how-it-works | P0 | Both |
-| `article:what-spf-means` | what-does-spf-mean | P0 | 3-in-1 |
-| `article:what-pa-means` | what-does-pa-mean | P0/P5 | 3-in-1 |
-| `article:indian-skin` | sunscreen-for-indian-skin | P1 | 3-in-1 |
-| `article:white-cast` | why-sunscreen-leaves-a-white-cast | P4 | 3-in-1 |
-| `article:no-white-cast-label` | no-white-cast-sunscreen-india | P4 | 3-in-1 |
-| `article:mineral-chemical` | mineral-vs-chemical-sunscreen-which-is-better-for-indian-skin | P4 | 3-in-1 |
-| `article:3in1-replace` | does-a-3-in-1-sunscreen-really-replace-your-moisturizer-primer-and-spf | P3 | 3-in-1 |
-| `article:one-step` | the-one-step-skincare-routine-how-to-actually-wear-spf-every-day | P3 | 3-in-1 |
-| `article:primer-built-in` | sunscreen-with-primer-built-in | P3 | 3-in-1 |
-| `article:pilling` | sunscreen-pilling-under-makeup | P3 | 3-in-1 |
-| `article:tinted-vs-foundation` | tinted-sunscreen-vs-foundation | P2 | Tinted |
-| `article:sample-kit` | sunscreen-sample-kit-india | P3 | Sleeve |
-| `article:spf30-india` | why-indian-skin-needs-more-than-spf-30 | P1 | 3-in-1 |
-| `article:fail-indian-tones` | why-most-sunscreens-fail-indian-skin-tones | P1 | Both |
-| `article:stop-skipping` | how-to-stop-skipping-sunscreen-because-of-your-morning-routine | P3 | 3-in-1 |
+Canonical inventory, pillars, intents, and answer leads: `education-index.md` (44 live articles, audit 2026-10-13).
 
 Full path prefix: `https://atypiicalbeauty.com/blogs/news/{slug}`
+
+Retired: `article:stop-skipping` slug `how-to-stop-skipping-sunscreen-because-of-your-morning-routine` is **404**. Replacement slug: `how-to-fix-skipping-sunscreen-because-of-your-morning-routine`.
 
 ---
 

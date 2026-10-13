@@ -91,17 +91,23 @@
 
 ## 9. Atypiical product science (brand-owned)
 
-State only with PDP citation:
+State only with a PDP or Science-page citation. Audit 2026-10-13.
 
-| Claim | Product |
-|-------|---------|
-| SPF 50 PA++++, in-vivo tested | Both heroes |
-| Hybrid filter system | Both |
-| Named filter list | 3-in-1 (see brand-facts) |
-| BlueShield® | 3-in-1 |
-| Lavender base / zero white cast intent | 3-in-1 |
-| Zero pilling intent | 3-in-1 |
-| 8 undertone-matched shades | Tinted |
+| Claim | Product | Source |
+|-------|---------|--------|
+| SPF 50 PA++++ | Both heroes | PDPs |
+| In-vivo tested to ISO 24444:2019 | Both heroes | `/pages/science` |
+| Patch test, 26 sensitive-skin subjects, reported non-irritant; results may vary | Both heroes | `/pages/science` |
+| Hybrid filters, named list in brand-facts | 3-in-1 | 3-in-1 PDP INCI + FAQ |
+| Mineral-forward hybrid: zinc oxide, titanium dioxide, Tinosorb M; iron oxides | Tinted | Tinted PDP FAQ + INCI |
+| BlueShield® (a card also prints ™) | 3-in-1 only | 3-in-1 PDP |
+| Lavender base / zero white cast intent / zero pilling intent | 3-in-1 | 3-in-1 PDP |
+| Licorice, cactus water, allantoin | Tinted only | Tinted PDP. Not on the 3-in-1 INCI |
+| Sweat-resistant badge | Both | PDPs. Not waterproof and not water-resistant |
+| Reapply every 2–3 hours outdoors | Both | PDP how-to. Category blogs still cite about every 2 hours. Quote the page you mean |
+| 8 undertone-matched shades | Tinted | PDP |
+
+Do not upgrade the patch test into “dermatologist-approved” or a treatment claim.
 
 ---
 

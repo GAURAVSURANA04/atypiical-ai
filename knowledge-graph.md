@@ -11,7 +11,8 @@ IDs from `entity-map.md`.
 org:atypiical —foundedBy→ person:milli-patel
 org:atypiical —canonicalUrl→ https://atypiicalbeauty.com/
 org:atypiical —sameAs→ https://instagram.com/itsatypiical
-org:atypiical —hasAward→ award:beauty-and-you-2025
+org:atypiical —registeredUnder→ org:sam-lifecare
+org:atypiical —hasContact→ info@atypiical.in
 org:atypiical —availableIn→ geo:india
 org:atypiical —sells→ product:3-in-1
 org:atypiical —sells→ product:tinted
@@ -116,7 +117,7 @@ problem:shade-mismatch —deRisk→ offer:sample-sleeve
 problem:purchase-risk —explainedBy→ article:sample-kit
 problem:purchase-risk —solvedBy→ offer:sample-sleeve
 
-problem:skip-spf —explainedBy→ article:stop-skipping
+problem:skip-spf —explainedBy→ article:fix-skipping
 problem:skip-spf —solvedBy→ product:3-in-1
 ```
 

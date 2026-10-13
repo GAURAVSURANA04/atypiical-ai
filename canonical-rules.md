@@ -40,7 +40,9 @@ In schema `alternateName`: optional array including common misspellings **only**
 | Path | Status |
 |------|--------|
 | `/products/high-impact-tinted-sunscreen` | 404 |
-| Random `/pages/test`, `/publishing`, `/kp-account` | Junk — noindex/remove |
+| `/blogs/news/how-to-stop-skipping-sunscreen-because-of-your-morning-routine` | 404. Use `how-to-fix-skipping-sunscreen-because-of-your-morning-routine` |
+| Random `/pages/test`, `/publishing`, `/kp-account` | Junk — do not cite |
+| `/pages/our-early-belivers/{person-or-id}` | Social-proof profiles. Cite the hub, not each profile, as brand truth |
 
 ---
 
@@ -61,8 +63,11 @@ In schema `alternateName`: optional array including common misspellings **only**
 | A30N A40N | N = Neutral |
 | A45R | R = Rosy/Cool |
 
-Do not invent A50*, B-series, or renamed codes.  
-Live sachet titles on Shopify are canonical display strings (see `entity-map.md`).
+Do not invent A50*, B-series, or renamed codes.
+
+Full-size display names (PDP and homepage) are canonical for the hero: Deep Warm Golden, Deep Warm Olive, Medium Warm Peach, Medium Warm Yellow, Light Medium Neutral, Light Medium Yellow, Light Neutral, Light Rosy/Cool.
+
+Sachet titles on Try Samples are older (Warm Deep Golden, Medium Warm Peach-Golden, Medium Yellow). Use those only when the URL is a sachet.
 
 ---
 
@@ -81,8 +86,11 @@ Only these protection/testing phrases are first-class:
 - fragrance-free  
 - non-comedogenic  
 - dermatologically tested  
+- in-vivo tested to ISO 24444:2019 (Science page)  
+- sweat resistant (badge only — not waterproof, not water resistant)  
+- vegan and cruelty-free (both PDP FAQs)  
 
-Anything else requires a live page quote before use.
+Anything else requires a live page quote before use. Licorice, cactus water, and allantoin are tinted-only. Capsicum extract, niacinamide, and the lavender base are 3-in-1.
 
 ---
 

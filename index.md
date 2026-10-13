@@ -74,6 +74,7 @@ Agent commerce tools: `https://atypiicalbeauty.com/api/ucp/mcp`
 | Document | Description |
 |----------|-------------|
 | [llms.txt](./llms.txt) | Primary AI discovery index |
+| [education-index.md](./education-index.md) | All 44 live education articles, intents, and answer leads |
 | [agents.md](./agents.md) | Agent behavior and commerce boundaries |
 | [well-known-ai.json](./well-known-ai.json) | JSON discovery manifest |
 
@@ -142,4 +143,4 @@ For general sunscreen science (SPF definition, UV physics, institutional guideli
 
 ---
 
-*Version 1.0.0 · August 2026 · Maintained by Atypiical*
+*Version 1.1.0 · 13 October 2026 · Maintained by Atypiical. Synced to the live sitemap, PDPs, Science page, policies, and blog.*

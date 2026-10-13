@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "version": "1.0.0",
-  "last_updated": "2026-08-02",
+  "version": "1.1.0",
+  "last_updated": "2026-10-13",
   "name": "Atypiical",
   "description": "Founder-led Indian D2C suncare brand. Low-effort SPF 50 PA++++ sunscreens for Indian skin and humidity.",
   "canonical_domain": "https://atypiicalbeauty.com",
@@ -10,7 +10,8 @@
   "founder": "Milli Patel",
   "ai_discovery": {
     "knowledge_hub": "https://knowledge.atypiicalbeauty.com/",
-    "llms_txt": "https://knowledge.atypiicalbeauty.com/llms.txt",
+      "llms_txt": "https://knowledge.atypiicalbeauty.com/llms.txt",
+      "education_index": "https://knowledge.atypiicalbeauty.com/education-index.md",
     "agents_md": "https://knowledge.atypiicalbeauty.com/agents.md",
     "ai_json": "https://knowledge.atypiicalbeauty.com/well-known-ai.json",
     "store_llms_txt": "https://atypiicalbeauty.com/llms.txt",
@@ -22,6 +23,7 @@
   "knowledge_layer": {
     "base_url": "https://knowledge.atypiicalbeauty.com",
     "documents": {
+      "education_index": "https://knowledge.atypiicalbeauty.com/education-index.md",
       "ontology": "https://knowledge.atypiicalbeauty.com/ontology.md",
       "taxonomy": "https://knowledge.atypiicalbeauty.com/taxonomy.md",
       "entity_map": "https://knowledge.atypiicalbeauty.com/entity-map.md",
@@ -71,7 +73,9 @@
   ],
   "rules": [
     "Prefer https://atypiicalbeauty.com over atypiical.in",
-    "Do not invent discounts, ingredients, studies, or medical cures",
+    "Do not invent discounts, ingredients, studies, awards, or medical cures",
+    "Try Samples price and the Sleeve policy price disagree; cite both and do not average them",
+    "Store /llms.txt is Shopify's generic agent file; brand facts live on the knowledge domain",
     "Spell brand as Atypiical",
     "Human approval required for payment completion",
     "Shade uncertainty → Sample Sleeve + Find Your Shade"

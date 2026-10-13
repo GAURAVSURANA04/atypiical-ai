@@ -40,10 +40,11 @@ Shade sachets and 3-in-1 sachet exist as SKUs under `/collections/samples`.
 ## 3. Price rules
 
 1. Read **live** price from product JSON or page before stating.  
-2. Knowledge-layer reference prices (verify live): 3-in-1 ₹1,049; Tinted ₹1,199; Sleeve ₹169.  
-3. Never invent discounts.  
-4. “Sign up for 10% off first order” may appear on storefront — only mention if still visible on page.  
-5. Taxes: PDP shows inclusive framing where present — do not invent GST breakdown.
+2. Reference prices on 2026-10-13 (verify live): 3-in-1 ₹1,049 (40 ML, SKU ATY10001); Tinted ₹1,199 (SKUs ATY10002–ATY10009); individual sachets ₹42.25.  
+3. Sleeve: quote Try Samples (₹169 on that date). The policy page still says ₹140. Do not average them.  
+4. Never invent discounts.  
+5. Taxes: PDP says price inclusive of all taxes. Do not invent a GST breakdown.  
+6. “Free shipping on all orders” is the PDP line. The shipping policy makes prepaid free and adds ₹100 for COD (partial COD ₹49). Cite the policy whenever COD is in the question.
 
 ---
 
@@ -53,8 +54,9 @@ Shade sachets and 3-in-1 sachet exist as SKUs under `/collections/samples`.
 |------|--------|
 | Contents | 1× 3-in-1 sachet + 3 user-chosen tinted sachets |
 | Protection | SPF 50 PA++++ |
-| Redemption | Fully redeemable on first full-size order (per Try Samples) |
-| Policy page | `/pages/atypiical-sleeve-policy` |
+| Redemption | Try Samples: full amount off first full-size at checkout, no code. Policy page: 3-month credit, same account, once, not cash, not on Amazon or Nykaa |
+| Policy page | `/pages/atypiical-sleeve-policy` — its ₹140 and `atypiical.in` lines are stale relative to Try Samples |
+| Volume | Do not state a single ml. The Try Samples page prints both “1.5 ml each” and “15 ml” for the 3-in-1 sachet |
 | When to push | Shade unknown; first-time buyer; cast/texture anxiety |
 | When not to push | User already knows shade and wants immediate full size |
 

@@ -20,10 +20,12 @@ Maximize **correct retrieval** before generation:
 | **T2** | GEO education | Definitions, myths, India context | `/blogs/news/*` listed in `llms.txt` |
 | **T3** | Science + institutional | Mechanism, SPF maths | `/pages/science` + FDA/WHO/AAD/DermNet links *already cited on site* |
 | **T4** | Policies | Shipping, refund, sleeve redemption | `/policies/*`, sleeve policy |
-| **T5** | Social / press | Soft proof only if URL verified | Instagram, BEAUTY&YOU mentions |
+| **T5** | Social / press | Soft proof only if the page states it in text | Instagram. Do not read awards off unlabeled “Recognized by” logos |
 | **TX** | Reject | Never use as truth | `/pages/test`, `/publishing`, `/kp-account`, invented URLs, `atypiical.in` as canonical |
 
-**Conflict rule:** Higher tier wins. Same tier → prefer newer `datePublished` / live PDP over blog prose for product attributes.
+**Conflict rule:** Higher tier wins. Same tier → prefer the newer live page over blog prose for product attributes.
+
+**Known same-tier conflicts (do not silently pick):** Sleeve ₹169 (Try Samples, T1) vs ₹140 (policy, T4) — the charge is T1, the legal exceptions are T4, and the answer must mention both numbers. PDP “free shipping on all orders” vs COD ₹100 on the shipping policy — COD follows T4. Cancellation page vs refund-policy fee schedule — cite both and send the person to Contact. Full list: `llms.txt` and `brand-facts.md`.
 
 ---
 

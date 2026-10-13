@@ -30,11 +30,17 @@ Aligned to blog strategy + live inventory.
 
 ### P0 — Foundations (TOFU science)
 
-| Topic | Live / Draft slug | Affinity |
-|-------|-------------------|----------|
-| How sunscreen works | `what-is-sunscreen-how-it-works` (draft) | None→Both |
-| What SPF means | `what-does-spf-mean` (draft) | 3-in-1 |
-| What PA means | `what-does-pa-mean` (live) | 3-in-1 |
+All live as of 2026-10-13. Full leads: `education-index.md`.
+
+| Topic | Slug | Affinity |
+|-------|------|----------|
+| How sunscreen works | `what-is-sunscreen-how-it-works` | Both |
+| What SPF means | `what-does-spf-mean` | Both |
+| What PA means | `what-does-pa-mean` | Both |
+| Complete guide | `complete-guide-to-sunscreen` | Both |
+| How much to apply | `how-much-sunscreen-to-apply-on-face` | Both |
+| SPF 30 vs 50 | `spf-30-vs-spf-50-for-indian-skin` | Both |
+| PA+++ vs PA++++ | `pa-three-plus-vs-pa-four-plus-is-the-extra-plus-worth-it` | Both |
 
 ### P1 — Sunscreen for Indian Skin
 
@@ -43,12 +49,24 @@ Aligned to blog strategy + live inventory.
 | Indian skin guide | `sunscreen-for-indian-skin` | 3-in-1 |
 | Needs more than SPF 30 | `why-indian-skin-needs-more-than-spf-30` | 3-in-1 |
 | Fail Indian skin tones | `why-most-sunscreens-fail-indian-skin-tones` | Both |
+| Indian weather | `best-sunscreen-for-indian-weather` | 3-in-1 |
+| Melanin-rich skin | `sunscreen-for-melanin-rich-skin` | Both |
+| Dusky skin | `sunscreen-for-dusky-skin` | Both |
 
 ### P2 — Tinted Sunscreen
 
 | Topic | Slug | Affinity |
 |-------|------|----------|
 | Tinted vs foundation | `tinted-sunscreen-vs-foundation` | Tinted |
+| What tinted sunscreen is | `what-is-tinted-sunscreen` | Tinted |
+| How to choose a shade | `how-to-choose-tinted-sunscreen-shade` | Tinted |
+| Undertones | `indian-skin-undertones-explained` | Tinted |
+| Best tinted, India | `best-tinted-sunscreen-india` | Tinted |
+| Best tinted, Indian skin | `best-tinted-sunscreen-for-indian-skin` | Tinted |
+| Dark / dusky tint | `tinted-sunscreen-for-dark-dusky-skin` | Tinted |
+| Visible light / pigment | `tinted-sunscreen-visible-light-pigmentation` | Tinted |
+| Does tint solve cast | `does-tinted-sunscreen-solve-white-cast` | Both |
+| Hero explainer | `atypiical-high-impact-tinted-sunscreen` | Tinted |
 
 ### P3 — Low Effort / 3-in-1 Routine
 
@@ -58,8 +76,8 @@ Aligned to blog strategy + live inventory.
 | One-step routine | `the-one-step-skincare-routine-how-to-actually-wear-spf-every-day` | 3-in-1 |
 | Primer built in | `sunscreen-with-primer-built-in` | 3-in-1 |
 | Pilling under makeup | `sunscreen-pilling-under-makeup` | 3-in-1 |
-| Stop skipping SPF | `how-to-stop-skipping-sunscreen-because-of-your-morning-routine` | 3-in-1 |
-| Sample kit | `sunscreen-sample-kit-india` (draft) | Sleeve/Both |
+| Fix skipping SPF | `how-to-fix-skipping-sunscreen-because-of-your-morning-routine` | 3-in-1 |
+| Sample kit | `sunscreen-sample-kit-india` | Sleeve/Both |
 
 ### P4 — White Cast Science
 
@@ -67,11 +85,29 @@ Aligned to blog strategy + live inventory.
 |-------|------|----------|
 | Why white cast | `why-sunscreen-leaves-a-white-cast` | 3-in-1 |
 | No white cast label guide | `no-white-cast-sunscreen-india` | 3-in-1 |
-| Mineral vs chemical | `mineral-vs-chemical-sunscreen-which-is-better-for-indian-skin` | 3-in-1 |
+| Mineral vs chemical | `mineral-vs-chemical-sunscreen-which-is-better-for-indian-skin` | Both |
+| No-cast for Indian skin | `no-white-cast-sunscreen-indian-skin` | Both |
 
-### P5 — SPF / PA Education
+### P5 — Skin type
 
-Covered under P0 + PA post; expand later with how-much-to-apply, SPF 30 vs 50 India, etc.
+| Topic | Slug | Affinity |
+|-------|------|----------|
+| Oily | `sunscreen-for-oily-skin-india` | 3-in-1 |
+| Dry | `sunscreen-for-dry-skin-india` | 3-in-1 |
+| Combination | `sunscreen-for-combination-skin` | 3-in-1 |
+| Acne-prone | `sunscreen-for-acne-prone-skin-india` | 3-in-1 |
+| Sensitive | `best-sunscreen-for-sensitive-skin-in-india` | Both |
+| Mature | `best-sunscreen-for-mature-skin-in-india` | 3-in-1 |
+| Rosacea | `best-sunscreen-for-rosacea-in-india` | None — mineral advice; do not map the hybrid heroes as the answer |
+
+### P6 — City
+
+| Topic | Slug | Affinity |
+|-------|------|----------|
+| Mumbai humidity | `best-sunscreen-mumbai-humidity` | 3-in-1 |
+| Delhi pollution | `best-sunscreen-delhi-pollution` | Both |
+| Bangalore weather | `best-sunscreen-bangalore-weather` | 3-in-1 |
+| Goa beach | `best-sunscreen-goa-beach` | None as a water-sport claim. Educate. Heroes are sweat resistant, not water resistant |
 
 ---
 
@@ -88,16 +124,16 @@ Covered under P0 + PA post; expand later with how-much-to-apply, SPF 30 vs 50 In
 
 ### 4.2 Shade taxonomy
 
-| Code | Undertone | Depth band (from live titles) |
-|------|-----------|-------------------------------|
-| A10W | Warm | Deep |
-| A15W | Warm | Deep |
-| A20W | Warm | Medium |
-| A25W | Warm | Medium |
-| A30N | Neutral | Light-Medium |
-| A35W | Warm | Light-Medium |
-| A40N | Neutral | Light |
-| A45R | Rosy/Cool | Light |
+| Code | Undertone | Full-size name (2026-10-13) |
+|------|-----------|------------------------------|
+| A10W | Warm | Deep Warm Golden |
+| A15W | Warm | Deep Warm Olive |
+| A20W | Warm | Medium Warm Peach |
+| A25W | Warm | Medium Warm Yellow |
+| A30N | Neutral | Light Medium Neutral |
+| A35W | Warm | Light Medium Yellow |
+| A40N | Neutral | Light Neutral |
+| A45R | Rosy/Cool | Light Rosy/Cool |
 
 Shade Finder families: Light → Light-Medium → Medium-Deep (quiz), then undertone.
 
@@ -166,13 +202,17 @@ entity_focus: [<entity ids from entity-map>]
 
 ---
 
-## 9. Priority publish order (taxonomy gaps)
+## 9. Remaining GEO gaps (after the 2026-10-13 crawl)
 
-| Gap | Why it matters for GEO |
-|-----|------------------------|
-| Publish P0 drafts (how it works, SPF meaning) | Own definitional AI answers |
-| Publish sample-kit blog | Own try-before-buy SERP vs marketplaces |
-| Future: SPF 30 vs 50 India; how much to apply; oily/dry skin | Fill P1/P5 long-tails |
-| Future: undertones blog (draft exists offline) | Support Shade Finder |
+The old draft gaps (how sunscreen works, SPF meaning, sample kit, SPF 30 vs 50, how much to apply, skin-type posts, undertones, city posts) are live. Do not describe them as drafts.
+
+| Gap | Why it still matters |
+|-----|----------------------|
+| Sleeve policy still says ₹140 and `atypiical.in` while Try Samples says ₹169 | Answer engines will cite the wrong price |
+| PDP “free shipping on all orders” vs COD ₹100 | Wrong delivery answers |
+| Tinted ml and sachet ml are not a single number | Models will invent 30 ml or 1.5 ml |
+| “Recognized by” logos have no text alt | Models will invent awards |
+| Early Believer profile URLs are in the sitemap | They are not product facts. Keep retrieval on the hub |
+| Rosacea post recommends mineral SPF | Do not answer it with the hybrid heroes as if they were mineral-only |
 
 ---

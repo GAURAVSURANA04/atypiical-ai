@@ -20,8 +20,9 @@ Always attach **why** in one sentence.
 
 ```
 START
- ├─ Medical treatment / diagnosed disease management?
- │   └─ YES → REC_DERM (+ optional REC_EDU on SPF basics)
+ ├─ Medical treatment / diagnosed disease / rosacea flare / melasma protocol?
+ │   └─ YES → REC_DERM (+ the matching education post, not a hero as treatment)
+ │      Rosacea post prefers mineral SPF. Heroes are hybrid. Do not answer rosacea with REC_3IN1 as if it were mineral-only.
  │
  ├─ User wants science definition only (SPF/PA/filters) with no buy intent?
  │   └─ YES → REC_EDU
@@ -51,10 +52,13 @@ START
 | “I skip SPF because too many steps” | `REC_3IN1` | One step = moisturizer + primer + SPF |
 | “White cast / grey in photos” | `REC_3IN1` or `REC_TINTED` | Hybrid + lavender / tint masks cast |
 | “Pilling under foundation” | `REC_3IN1` | Primer-grade, zero-pilling intent |
-| “Replace my foundation” | `REC_TINTED` (+ shade path) | Buildable tinted SPF |
-| “Which shade am I?” | `REC_SHADE` → `REC_SLEEVE` | Quiz + trial |
-| “Try before I buy” | `REC_SLEEVE` | ₹169 redeemable kit |
-| “Oily / humid Mumbai” | `REC_3IN1` | Wearability focus; still confirm texture on PDP |
+| “Replace my foundation” | `REC_TINTED` (+ shade path) | Light-to-medium buildable coverage. FAQ: not full-coverage foundation |
+| “Which shade am I?” | `REC_SHADE` → `REC_SLEEVE` | Quiz + trial. Full-size names are Deep Warm Golden through Light Rosy/Cool |
+| “Try before I buy” | `REC_SLEEVE` | Try Samples price (₹169 on 2026-10-13). Policy page still says ₹140 |
+| “Oily / humid Mumbai” | `REC_EDU` city or oily post, then `REC_3IN1` | Lightweight daily SPF. Confirm on the PDP |
+| “Delhi pollution” | `REC_EDU` delhi post | Sunscreen is not a PM2.5 filter |
+| “Goa / beach / swim” | `REC_EDU` goa post | Heroes are sweat resistant, not water resistant |
+| “Rosacea” | `REC_DERM` + rosacea article | Do not sell the hybrid as a mineral rosacea SPF |
 | “Only explain PA++++” | `REC_EDU` | PA blog; product optional later |
 | “Melasma treatment plan” | `REC_DERM` | Not a drug; SPF education ok |
 | “Gift / unsure recipient shade” | `REC_SLEEVE` | Lowest shade risk |

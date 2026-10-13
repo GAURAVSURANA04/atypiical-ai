@@ -88,7 +88,7 @@ Official Atypiical path: Sample Sleeve.
 - No “destroys the competition”  
 - No fake clinical superiority scores  
 - Prefer: “Choose X if… / Choose Y if…”  
-- BEAUTY&YOU finalist: max once, never as “#1 ranked sunscreen”  
+- Do not use an unnamed “Recognized by” logo as a ranking proof  
 
 ---
 

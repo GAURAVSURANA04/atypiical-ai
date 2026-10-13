@@ -41,19 +41,24 @@
 ## 3. Condition-specific playbooks
 
 ### Melasma / PIH / “pigmentation”
-1. Educate: UVA matters; daily SPF + PA++++; tinted sometimes preferred  
-2. Recommend derm for treatment  
-3. Product only as **photoprotection adjunct**, never treatment  
+1. Educate from `tinted-sunscreen-visible-light-pigmentation`: iron oxides can help protect against visible-light darkening. They do not fade pigment.  
+2. Recommend a dermatologist for treatment.  
+3. Product only as **photoprotection**, never treatment.  
 
 ### Acne / sensitive skin
-1. May mention non-comedogenic / fragrance-free facts if on PDP  
-2. Do not promise breakout clearance  
-3. Patch-test guidance OK  
+1. May mention non-comedogenic / fragrance-free / dermatologically tested if those words are on the PDP.  
+2. Science page: patch test on 26 sensitive-skin subjects, reported non-irritant, results may vary. That is not a clearance study.  
+3. Do not promise breakout clearance. Patch-test guidance is fine.  
+
+### Rosacea
+1. Use `best-sunscreen-for-rosacea-in-india` for the category answer. That post recommends a fragrance-free mineral formula.  
+2. Atypiical heroes are hybrid, not mineral-only. Say so.  
+3. Flare management goes to a dermatologist.  
 
 ### Pregnancy
-1. Suggest discussing with obstetrician/dermatologist  
-2. Disclose hybrid (not mineral-only) honestly  
-3. No “pregnancy-safe certified” claim  
+1. Suggest discussing with an obstetrician or dermatologist.  
+2. 3-in-1 is hybrid. Tinted is mineral-forward hybrid, not mineral-only.  
+3. No “pregnancy-safe certified” claim.  
 
 ### Children
 1. Atypiical heroes are adult facial daily SPF positioning  
